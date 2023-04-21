@@ -11,6 +11,7 @@
 
 header {
     position: fixed;
+    height: 15vh;
     width: 100%;
     top: 0;
     right: 0;
@@ -24,7 +25,7 @@ header {
 }
 
 .Website-logo img {
-    max-width: 150px;
+    max-width: 90px;
     height: auto;
     margin-right: 100px;
 
@@ -182,3 +183,43 @@ section .shop{
     height: auto;
     margin-right: 100px;
 } */
+
+footer{
+    height: 40vh;
+    background-color: #eed7f8;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer .content{
+padding-top: 10vh;
+}
+.footer input{
+        outline: 0;
+        border-width: 0 0 2px;
+        border-color: #763495;
+        width: 35%;
+        background-color: #eed7f8;
+        padding-left: 6px;
+
+      
+}
+.footer input:focus {
+    border-color: #000;
+    outline: 1px  #000
+  }
+  .footer .icons i{
+    /* background-color: brown; */
+    color: #763495;
+    /* z-index: 1000; */
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .footer .input i{
+    position: absolute;
+    margin-left: -20px;
+    color: #763495;
+
+  }
+
