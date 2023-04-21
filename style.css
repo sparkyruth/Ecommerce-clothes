@@ -100,6 +100,7 @@ section .shop{
     font-weight: bold;
     border: 1px solid #000;
     font-size: 16px;
+    cursor: pointer;
 
 }
 .categories{
@@ -134,38 +135,66 @@ section .shop{
     background-position: center;
     background-size: cover;
     flex: 0 0 40%;;
-
-
 }
 .categories .new-arrivals img {
     max-width: 350px;
     height: auto;
     margin-right: 100px;
-
 }
 .categories .new-arrivals h3{
     position:absolute;
     bottom: 5;
     right: 15;
-   
+    cursor: pointer;
+}
+.categories .new-arrivals h3:hover{
+    font-size: 18px;
+    /* right: 70; */
+ }
+.categories .new-arrivals:hover
+{
+    background-image: url(images/hats.jpeg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
 .categories .men h3{
     position:absolute;
     bottom: 5;
     right: 80;
-   
+    cursor: pointer;
 }
+.categories .men h3:hover{
+    font-size: 18px;
+    right: 70;
+ 
+ }
 .categories .women h3{
     position:absolute;
     bottom: 5;
     right: 80;
+    cursor: pointer;
+}
+.categories .women h3:hover{
+   font-size: 18px;
+   right: 70;
 
 }
 .categories .men{
-    background-image: url(images/men.jpeg);
+    background-image: url(images/men3.jpeg);
     background-position: center;
     background-size: cover;
     flex: 0 0 27%;
+
+}
+.categories .men:hover{
+    background-image: url(images/men2.jpeg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 /* .categories .men img{
     max-width: 150px;
@@ -173,10 +202,18 @@ section .shop{
     margin-right: 100px;
 } */
 .categories .women{
-    background-image: url(images/women.jpeg);
+    background-image: url(images/winter5.jpeg);
     background-position: center;
     background-size: cover;
     flex: 0 0 27%;
+
+}
+.categories .women:hover{
+    background-image: url(images/women2.jpeg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 /* .categories .women img{
     max-width: 150px;
