@@ -4,6 +4,8 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width-device-width, initial-scale-1.0" />
+      <meta name="viewport" content="width=device-width" />
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
       <title>Tosha Ecommerce Website</title>
       <link rel="stylesheet" href="style.css" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,16 +27,38 @@
         <a href="" class="Website-logo">
           <img src="images/logo.png" alt="logo" />
         </a>
-        <ul class="nav-bar-list">
-          <li class="selected">Home</li>
-          <li>Men</li>
-          <li>Women</li>
-          <li>Shop</li>
-          <li>Product</li>
-          <li>Pages</li>
-          <li>Contact</li>
-          <li>Blogs</li>
-        </ul>
+      
+        <div class="nav-bar-list">
+            <div class="nav-menu">
+                <p class="selected">Home</p>
+                <p>Men</p>
+                <p>Women</p>
+                <p>Shop</p>
+                <p>Product</p>
+                <p>Pages</p>
+                <p>Contact</p>
+                <p>Blogs</p>
+            </div>
+           
+            <div class="dropdown">
+              <button class="dropbtn">Menu 
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="home" class="selected">Home</a>
+                <a href="Men">Men</a>
+                <a href="Women">Women</a>
+                <a href="Shop">Shop</a>
+                <a href="Product">Product</a>
+                <a href="Pages">Pages</a>
+                <a href="#Contact">Contact</a>
+                <a href="Blogs">Blogs</a>
+
+              </div>
+            </div> 
+        </div>
+           
+        
       </header>
 
    
