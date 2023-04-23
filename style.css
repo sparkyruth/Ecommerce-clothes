@@ -270,6 +270,23 @@ header {
     margin-right: auto;
     margin-top: 30px;
 }
+@media (max-width: 768px) {
+    .categories {
+        display: block;
+        height: 95vh;
+        width: 90%;
+    }
+    .categories .new-arrivals {
+       height: 30vh;
+    }
+    .categories .men {
+        height: 30vh;
+     }
+     .categories  .women {
+        height: 30vh;
+     }
+   
+}
 
 .categories div {
     margin: 10px;
@@ -413,6 +430,15 @@ footer {
     padding-left: 6px;
 
 
+}
+@media (max-width: 768px) {
+    .footer input {
+       
+        width: 50%;
+      
+    
+    
+    }
 }
 
 .footer input:focus {
